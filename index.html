@@ -4,24 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" />
+
+  <link rel="stylesheet" href="styles.css">
   <title>404 page challenge</title>
 </head>
 <body>
-  <header>
-    <h1>404 NOT FOUND</h1>
-  </header>
-
-  <main>
-    <img src="assets/Scarecrow.png" alt="Scarecrow">
-    <div>
-      <h2>I have bad news for you</h2>
-      <p>The page you are looking for might be removed or is temporarily unavailable</p>
-      <button>Back to homepage</button>
-    </div>
-  </main>
-
-  <footer>
-    <p>created by <a href="https://github.com/sebastoico">sebastoico</a> - devChallenges.io</p>
-  </footer>
+  <div class="body">
+    <header class="header">
+      <h1 class="header__h1">404 NOT FOUND</h1>
+    </header>
+  
+    <main class="main">
+      <img class="main__img" src="assets/Scarecrow.png" alt="Scarecrow">
+      <div class="main__content">
+        <h2 class="main__h2">I have bad news for you</h2>
+        <p class="main__p">The page you are looking for might be removed or is temporarily unavailable</p>
+        <button class="main__button">Back to homepage</button>
+      </div>
+    </main>
+  
+    <footer class="footer">
+      <p class="footer__p">created by <a class="footer__a" href="https://github.com/sebastoico">sebastoico</a> - devChallenges.io</p>
+    </footer>
+  </div>
 </body>
 </html>
